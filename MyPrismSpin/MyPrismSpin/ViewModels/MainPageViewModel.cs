@@ -46,8 +46,6 @@ namespace MyPrismSpin.ViewModels
             if (parameters.ContainsKey("title"))
                 Title = (string)parameters["title"] + " and Prism";
 
-            _navigationService.NavigateAsync("Page2");
-
         }
     }
 }
