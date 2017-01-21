@@ -50,10 +50,11 @@
     <Compile Include="Views\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\PrismMasterDetailPage1.xaml.cs">
-      <DependentUpon>PrismMasterDetailPage1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Bootstrapping\ViewModelModule.cs" />
+    <Compile Include="Views\MyMasterDetailPage.xaml.cs">
+      <DependentUpon>MasterDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\MasterDetailPageModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -67,6 +68,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MasterDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -115,12 +119,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <EmbeddedResource Include="Views\PrismMasterDetailPage1.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
   <ItemGroup>
     <Folder Include="Bootstrapping\" />
   </ItemGroup>

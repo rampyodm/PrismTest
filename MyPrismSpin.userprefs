@@ -1,21 +1,55 @@
 ﻿<Properties StartupConfiguration="{B5A6F96F-93F0-4DC6-8D20-C0FB9A6FF3E4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MyPrismSpin/MyPrismSpin/App.xaml.cs">
     <Files>
-      <File FileName="MyPrismSpin/MyPrismSpin/Navigation/MyPrismSpinNavigationPage.cs" Line="9" Column="1" />
-      <File FileName="MyPrismSpin/MyPrismSpin/App.xaml.cs" Line="17" Column="71" />
+      <File FileName="MyPrismSpin/MyPrismSpin/Navigation/MyPrismSpinNavigationPage.cs" Line="13" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin/App.xaml.cs" Line="25" Column="65" />
       <File FileName="MyPrismSpin/MyPrismSpin/Views/MenuPageView.xaml" Line="8" Column="106" />
       <File FileName="MyPrismSpin/MyPrismSpin/Views/MenuPageView.xaml.cs" Line="1" Column="1" />
       <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/MenuPageViewModel.cs" Line="13" Column="37" />
       <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/Page2ViewModel.cs" Line="1" Column="1" />
-      <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/MainPageViewModel.cs" Line="28" Column="70" />
+      <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/MainPageViewModel.cs" Line="29" Column="10" />
       <File FileName="MyPrismSpin/MyPrismSpin/Views/HomePage.xaml" Line="5" Column="54" />
       <File FileName="MyPrismSpin/MyPrismSpin/Views/HomePage.xaml.cs" Line="1" Column="1" />
       <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/PrismMasterDetailPage1ViewModel.cs" Line="17" Column="52" />
+      <File FileName="MyPrismSpin/MyPrismSpin.Droid/MainActivity.cs" Line="35" Column="9" />
+      <File FileName="MyPrismSpin/MyPrismSpin/App.xaml" Line="4" Column="65" />
+      <File FileName="MyPrismSpin/MyPrismSpin/obj/Debug/MyPrismSpin.App.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin.iOS/AppDelegate.cs" Line="41" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin/obj/Debug/MyPrismSpin.Views.MainPage.xaml.g.cs" Line="17" Column="26" />
+      <File FileName="MyPrismSpin/MyPrismSpin/Views/MainPage.xaml.cs" Line="5" Column="26" />
+      <File FileName="MyPrismSpin/MyPrismSpin/Bootstrapping/ViewModelModule.cs" Line="13" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin/Views/MasterDetailPage.xaml" Line="16" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin/Views/MyMasterDetailPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="MyPrismSpin/MyPrismSpin/ViewModels/MasterDetailPageModel.cs" Line="15" Column="48" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyPrismSpin" expanded="True">
+            <Node name="MyPrismSpin" expanded="True">
+              <Node name="Bootstrapping" expanded="True" />
+              <Node name="Navigation" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="MasterDetailPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MyPrismSpin.Droid" expanded="True" />
+            <Node name="MyPrismSpin.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MyPrismSpin.Droid PreferredExecutionTarget="Android.New" />

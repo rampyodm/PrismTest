@@ -22,7 +22,7 @@ namespace MyPrismSpin
             InitializeComponent();
 
             //NavigationService.NavigateAsync("MainPage");
-            NavigationService.NavigateAsync("MyPrismSpinNavigationPage/MainPage");
+            NavigationService.NavigateAsync("MyMasterDetailPage/MyPrismSpinNavigationPage/MainPage");
             //NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
         }
 
@@ -32,6 +32,7 @@ namespace MyPrismSpin
             Container.RegisterTypeForNavigation<Page2View>("Page2View");
             Container.RegisterTypeForNavigation<MyPrismSpinNavigationPage>("MyPrismSpinNavigationPage");
             Container.RegisterTypeForNavigation<NavigationPage>("NavigationPage");
+            Container.RegisterTypeForNavigation<MyMasterDetailPage>();
         }
 
         protected override Autofac.IContainer CreateContainer()
