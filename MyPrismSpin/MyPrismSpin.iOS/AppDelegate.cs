@@ -4,8 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
-using Prism.Unity;
-using Microsoft.Practices.Unity;
+using Prism.Autofac.Forms;
+using Autofac;
 
 namespace MyPrismSpin.iOS
 {
@@ -33,10 +33,9 @@ namespace MyPrismSpin.iOS
 
     public class iOSInitializer : IPlatformInitializer
     {
-        public void RegisterTypes(IUnityContainer container)
+        public void RegisterTypes(IContainer container)
         {
 
         }
     }
-
 }

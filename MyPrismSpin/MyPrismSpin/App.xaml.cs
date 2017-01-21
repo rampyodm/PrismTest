@@ -1,6 +1,7 @@
-﻿using Prism.Unity;
-using MyPrismSpin.Views;
+﻿using MyPrismSpin.Views;
 using MyPrismSpin.Navigation;
+using Prism.Autofac;
+using Prism.Autofac.Forms;
 
 namespace MyPrismSpin
 {
