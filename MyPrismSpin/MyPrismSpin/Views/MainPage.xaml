@@ -5,6 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="MyPrismSpin.Views.MainPage"
              Title="MainPage"
+		BackgroundColor="Transparent"
 		     BackgroundImage="cloudBackground">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
     <Label Text="{Binding Title}" />
