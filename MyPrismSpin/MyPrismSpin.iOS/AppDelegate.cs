@@ -6,6 +6,7 @@ using Foundation;
 using UIKit;
 using Prism.Autofac.Forms;
 using Autofac;
+using Xamarin.Forms;
 
 namespace MyPrismSpin.iOS
 {

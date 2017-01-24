@@ -8,5 +8,7 @@ namespace MyPrismSpin.Navigation
     {
         public MyPrismSpinNavigationPage(Page rootPage) : base(rootPage) { }
         public MyPrismSpinNavigationPage(){}
+
+
     }
 }

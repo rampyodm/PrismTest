@@ -96,6 +96,7 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <None Include="packages.config" />
+    <Compile Include="Renderers\BasePageModelRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyPrismSpin\MyPrismSpin.csproj">
@@ -120,6 +121,12 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\cloudBackground.png" />
+    <BundleResource Include="Resources\cloudBackground%402x.png" />
+    <BundleResource Include="Resources\cloudBackground%403x.png" />
+    <BundleResource Include="Resources\Icons_Hamburger.png" />
+    <BundleResource Include="Resources\Icons_Hamburger%402x.png" />
+    <BundleResource Include="Resources\Icons_Hamburger%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Prism, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
@@ -152,6 +159,9 @@
     <Reference Include="Prism.Autofac.Forms">
       <HintPath>..\..\packages\Prism.Autofac.Forms.6.2.0\lib\Xamarin.iOS1.0\Prism.Autofac.Forms.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

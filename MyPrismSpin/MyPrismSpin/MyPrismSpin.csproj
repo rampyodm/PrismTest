@@ -55,6 +55,11 @@
       <DependentUpon>MasterDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\MasterDetailPageModel.cs" />
+    <Compile Include="ViewModels\BasePageModel.cs" />
+    <Compile Include="Views\CoolPage.xaml.cs">
+      <DependentUpon>CoolPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation\MyPrismSpinMasterDetailPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -71,6 +76,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MasterDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CoolPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

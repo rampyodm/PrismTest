@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace MyPrismSpin.ViewModels
 {
-    public class MainPageViewModel : BindableBase, INavigationAware
+    public class MainPageViewModel : BasePageModel
     {
         INavigationService _navigationService;
 
@@ -36,12 +36,12 @@ namespace MyPrismSpin.ViewModels
         {
             _navigationService.NavigateAsync("Page2View");
         }
-        public void OnNavigatedFrom(NavigationParameters parameters)
+        public override void OnNavigatedFrom(NavigationParameters parameters)
         {
 
         }
 
-        public void OnNavigatedTo(NavigationParameters parameters)
+        public override void OnNavigatedTo(NavigationParameters parameters)
         {
             if (parameters.ContainsKey("title"))
                 Title = (string)parameters["title"] + " and Prism";

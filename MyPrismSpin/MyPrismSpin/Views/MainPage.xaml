@@ -4,7 +4,8 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="MyPrismSpin.Views.MainPage"
-             Title="MainPage">
+             Title="MainPage"
+		     BackgroundImage="cloudBackground">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
     <Label Text="{Binding Title}" />
     <Button Text="Go to Page 2" Command="{Binding GoToNextPage}" />

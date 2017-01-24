@@ -14,6 +14,7 @@ namespace MyPrismSpin.Bootstrapping
             builder.RegisterType<MenuPageViewModel>();
             builder.RegisterType<Page2ViewModel>();
             builder.RegisterType<PrismMasterDetailPage1ViewModel>();
+            builder.RegisterType<BasePageModel>();
         }
     }
 }

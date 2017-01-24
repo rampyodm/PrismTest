@@ -25,6 +25,18 @@ namespace MyPrismSpin.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
         }
+
+        protected override void OnPostCreate(Bundle savedInstanceState)
+
+        {
+
+            Android.Support.V7.Widget.Toolbar toolBar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+
+            SetSupportActionBar(toolBar);
+
+            base.OnPostCreate(savedInstanceState);
+
+        }
     }
 
     public class AndroidInitializer : IPlatformInitializer
