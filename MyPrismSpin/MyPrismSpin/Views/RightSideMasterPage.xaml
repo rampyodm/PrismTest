@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<t:SlideMenuView xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MyPrismSpin.Views.RightSideMasterPage"
+		xmlns:t="clr-namespace:SlideOverKit;assembly=SlideOverKit">
+    <ContentPage.Content>
+		<StackLayout>
+            <Button Text="Billing" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/BillingPage"/>
+            <Button Text="Your Order" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/PlaceOrderPage"/>
+            <Button Text="Settings" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/SettingsPage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</t:SlideMenuView>

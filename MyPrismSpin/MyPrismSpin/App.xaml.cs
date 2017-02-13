@@ -21,9 +21,8 @@ namespace MyPrismSpin
         {
             InitializeComponent();
 
-            //NavigationService.NavigateAsync("MainPage");
-            NavigationService.NavigateAsync("MyMasterDetailPage/MyPrismSpinNavigationPage/MainPage");
-            //NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
+            //NavigationService.NavigateAsync("MyMasterDetailPage/MyPrismSpinNavigationPage/MainPage");
+            NavigationService.NavigateAsync("MyPrismSpinNavigationPage/MainPage");
         }
 
         protected override void RegisterTypes()

@@ -7,9 +7,10 @@
 			Title="Default"
             Icon="Icons_Hamburger"
 			BackgroundColor="Transparent"
+            BackgroundImage="cloudBackground"
 				>
             <StackLayout>
-                <Button Text="Billing" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/BillingPage"/>
+                <Button Text="Open" Command="{Binding Path=OpenMenuCommand}" CommandParameter="MyNavigationPage/BillingPage"/>
                 <Button Text="Your Order" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/PlaceOrderPage"/>
                 <Button Text="Settings" Command="{Binding Path=NavigationCommand}" CommandParameter="MyNavigationPage/SettingsPage"/>
             </StackLayout>
